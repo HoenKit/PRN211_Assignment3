@@ -34,7 +34,7 @@ namespace PRN211_Assignment3Web.Controllers
             }
 
             var userDetail = await _context.UserDetails
-                .Include(u => u.User)
+                .Include(u => u.User.Role)
                 .FirstOrDefaultAsync(m => m.UserDetailId == id);
             if (userDetail == null)
             {

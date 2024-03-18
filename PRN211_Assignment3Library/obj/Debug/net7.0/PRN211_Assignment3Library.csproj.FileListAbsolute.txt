@@ -13,3 +13,4 @@ C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\obj\Debug\
 C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\obj\Debug\net7.0\PRN211_Assignment3Library.genruntimeconfig.cache
 C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\obj\Debug\net7.0\ref\PRN211_Assignment3Library.dll
 C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\bin\Debug\net7.0\appsettings.json
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\obj\Debug\net7.0\PRN211_Assignment3Library.sourcelink.json

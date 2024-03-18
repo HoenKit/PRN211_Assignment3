@@ -253,3 +253,6 @@ C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Web\obj\Debug\net7
 C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Web\obj\Debug\net7.0\PRN211_Assignment3Web.pdb
 C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Web\obj\Debug\net7.0\PRN211_Assignment3Web.genruntimeconfig.cache
 C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Web\obj\Debug\net7.0\ref\PRN211_Assignment3Web.dll
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Web\obj\Debug\net7.0\PRN211_Assignment3Web.sourcelink.json
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Web\obj\Debug\net7.0\scopedcss\Views\UserRoles\_Layout.cshtml.rz.scp.css
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Web\obj\Debug\net7.0\scopedcss\Views\Shared\_AdminLayout.cshtml.rz.scp.css
