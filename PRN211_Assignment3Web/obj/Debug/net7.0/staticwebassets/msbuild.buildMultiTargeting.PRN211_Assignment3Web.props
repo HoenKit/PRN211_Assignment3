@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PRN211_Assignment3Web.props" />
+</Project>

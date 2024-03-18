@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRN211_Assignment3Library", "PRN211_Assignment3Library\PRN211_Assignment3Library.csproj", "{D2F8C60C-1977-40A3-9180-1998E6F2D854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRN211_Assignment3Web", "PRN211_Assignment3Web\PRN211_Assignment3Web.csproj", "{64B09E8C-B1B0-4C44-ACC3-9A0755CD1F46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2F8C60C-1977-40A3-9180-1998E6F2D854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F8C60C-1977-40A3-9180-1998E6F2D854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F8C60C-1977-40A3-9180-1998E6F2D854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F8C60C-1977-40A3-9180-1998E6F2D854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B09E8C-B1B0-4C44-ACC3-9A0755CD1F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B09E8C-B1B0-4C44-ACC3-9A0755CD1F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B09E8C-B1B0-4C44-ACC3-9A0755CD1F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B09E8C-B1B0-4C44-ACC3-9A0755CD1F46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4601299B-698F-42B9-9AC1-CA25595B1190}
+	EndGlobalSection
+EndGlobal

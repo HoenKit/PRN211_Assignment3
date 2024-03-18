@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\bin\Debug\net7.0\PRN211_Assignment3Library.deps.json
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\bin\Debug\net7.0\PRN211_Assignment3Library.runtimeconfig.json
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\bin\Debug\net7.0\PRN211_Assignment3Library.dll
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\bin\Debug\net7.0\PRN211_Assignment3Library.pdb
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\obj\Debug\net7.0\PRN211_Assignment3Library.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\obj\Debug\net7.0\PRN211_Assignment3Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\obj\Debug\net7.0\PRN211_Assignment3Library.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\obj\Debug\net7.0\PRN211_Assignment3Library.AssemblyInfo.cs
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\obj\Debug\net7.0\PRN211_Assignment3Library.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\obj\Debug\net7.0\PRN211_Assignment3Library.dll
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\obj\Debug\net7.0\refint\PRN211_Assignment3Library.dll
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\obj\Debug\net7.0\PRN211_Assignment3Library.pdb
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\obj\Debug\net7.0\PRN211_Assignment3Library.genruntimeconfig.cache
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\obj\Debug\net7.0\ref\PRN211_Assignment3Library.dll
+C:\Users\PC\source\repos\PRN211_Assignment3\PRN211_Assignment3Library\bin\Debug\net7.0\appsettings.json
