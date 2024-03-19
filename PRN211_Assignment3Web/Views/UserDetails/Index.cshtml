@@ -5,7 +5,7 @@
     Layout = "_AdminLayout";
 }
 
-<h1>Index</h1>
+<h1>Manage User</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -53,7 +53,7 @@
                 @Html.DisplayFor(modelItem => item.Phone)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.User.UserId)
+                @Html.DisplayFor(modelItem => item.User.UserName)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.UserDetailId">Edit</a> |

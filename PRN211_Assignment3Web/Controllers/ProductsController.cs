@@ -48,8 +48,8 @@ namespace PRN211_Assignment3Web.Controllers
         // GET: Products/Create
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId");
-            ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId");
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName");
+            ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserName");
             return View();
         }
 
@@ -84,8 +84,8 @@ namespace PRN211_Assignment3Web.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
-            ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId", product.UserId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
+            ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserName", product.UserId);
             return View(product);
         }
 

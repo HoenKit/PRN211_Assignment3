@@ -15,6 +15,8 @@ namespace PRN211_Assignment3Web.Controllers
 
         public IActionResult Index()
         {
+            var userName = HttpContext.Session.GetString("UserName");
+            ViewBag.UserName = userName ?? null;
             return View();
         }
 
