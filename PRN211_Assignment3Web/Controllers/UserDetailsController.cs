@@ -45,10 +45,17 @@ namespace PRN211_Assignment3Web.Controllers
         }
 
         // GET: UserDetails/Create
-        public IActionResult Create()
+        public IActionResult Create(int userId)
         {
-            ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId");
-            return View();
+            if (userId <= 0)
+            {
+                return BadRequest();
+            }
+            UserDetail userDetail = new UserDetail
+            {
+                UserId = userId,
+            };
+            return View(userDetail);
         }
 
         // POST: UserDetails/Create
@@ -62,9 +69,8 @@ namespace PRN211_Assignment3Web.Controllers
             {
                 _context.Add(userDetail);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Login", "Users");
             }
-            ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId", userDetail.UserId);
             return View(userDetail);
         }
 

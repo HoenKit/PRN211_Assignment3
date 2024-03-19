@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRN211_Assignment3Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+376f2de7c59b5eba3182056019318e333ae056e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09620163efbf839d642f9850af476bb4cecbc562")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRN211_Assignment3Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRN211_Assignment3Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

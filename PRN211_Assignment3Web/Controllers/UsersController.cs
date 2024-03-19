@@ -48,7 +48,7 @@ namespace PRN211_Assignment3Web.Controllers
         // GET: Users/Create
         public IActionResult Create()
         {
-            ViewData["RoleId"] = new SelectList(_context.UserRoles, "RoleId", "RoleId");
+            //ViewData["RoleId"] = new SelectList(_context.UserRoles, "RoleId", "RoleId");
             return View();
         }
 
@@ -63,9 +63,10 @@ namespace PRN211_Assignment3Web.Controllers
             {
                 _context.Add(user);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                int userId = user.UserId;
+                return RedirectToAction("Create", "UserDetails", new { userId = userId });
             }
-            ViewData["RoleId"] = new SelectList(_context.UserRoles, "RoleId", "RoleId", user.RoleId);
+            //ViewData["RoleId"] = new SelectList(_context.UserRoles, "RoleId", "RoleId", user.RoleId);
             return View(user);
         }
 
@@ -104,6 +105,11 @@ namespace PRN211_Assignment3Web.Controllers
             return View();
         }
 
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Home");
+        }
 
         // GET: Users/Edit/5
         public async Task<IActionResult> Edit(int? id)
