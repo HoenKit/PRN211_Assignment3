@@ -7,12 +7,30 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PRN211_Assignment3Web.styles.css" asp-append-version="true" />
+    <title>Watch Store</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PRN211_Assignment3Web</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Watch Store</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -26,10 +44,23 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Manage Product</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Create">Sign up</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Create">Sign up</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Logout">Logout</a>
+                        </li>
+                        <li class="nav-item">
+                            @if (ViewBag.UserName != null)
+                            {
+                                <a class="nav-link text-dark">Hello @ViewBag.UserName</a>
+                            }
+                            else
+                            {
+                                <a class="nav-link text-dark">Hello Guest</a>
+                            }
                         </li>
                     </ul>
                 </div>

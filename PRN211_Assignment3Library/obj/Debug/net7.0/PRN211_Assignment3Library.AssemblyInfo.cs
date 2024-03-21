@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRN211_Assignment3Library")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b646e8000136a5522749aa88e830d3ed303dcda8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc21ba5559cd27817a949980722f0e91265baf1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRN211_Assignment3Library")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRN211_Assignment3Library")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

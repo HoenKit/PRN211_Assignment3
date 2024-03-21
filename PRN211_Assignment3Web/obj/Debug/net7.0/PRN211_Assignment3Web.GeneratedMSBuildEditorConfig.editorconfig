@@ -54,12 +54,56 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/OrderDetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/OrderDetails/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/OrderDetails/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/OrderDetails/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/OrderDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/Orders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/Orders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/Orders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/Products/Create.cshtml]
@@ -148,6 +192,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/Users/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PC/source/repos/PRN211_Assignment3/PRN211_Assignment3Web/Views/_ViewImports.cshtml]

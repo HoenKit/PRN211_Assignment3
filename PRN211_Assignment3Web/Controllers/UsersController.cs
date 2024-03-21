@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -47,7 +48,7 @@ namespace PRN211_Assignment3Web.Controllers
         // GET: Users/Create
         public IActionResult Create()
         {
-            ViewData["RoleId"] = new SelectList(_context.UserRoles, "RoleId", "RoleId");
+            //ViewData["RoleId"] = new SelectList(_context.UserRoles, "RoleId", "RoleId");
             return View();
         }
 
@@ -60,12 +61,61 @@ namespace PRN211_Assignment3Web.Controllers
         {
             if (ModelState.IsValid)
             {
+                var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.UserName == user.UserName);
+                if (existingUser != null)
+                {
+                    ModelState.AddModelError(string.Empty, "User with this UserName already exists.");
+                    return View(user);
+                }
                 _context.Add(user);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+
+                return RedirectToAction("Create", "UserDetails", new { userId = user.UserId });
             }
-            ViewData["RoleId"] = new SelectList(_context.UserRoles, "RoleId", "RoleId", user.RoleId);
+
             return View(user);
+        }
+
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login([Bind("UserId,UserName,Password,Status")] User user)
+        {
+            if (ModelState.IsValid)
+            {
+                var auth = await _context.Users
+                    .Include(u => u.Role)
+                    .FirstOrDefaultAsync(u => u.UserName == user.UserName && u.Password == user.Password);
+
+                if (auth != null)
+                {
+                    HttpContext.Session.SetInt32("UserId", auth.UserId);
+                    HttpContext.Session.SetString("UserName", auth.UserName);
+                    HttpContext.Session.SetInt32("RoleId", (int)auth.RoleId);
+                    HttpContext.Session.SetString("Password", auth.Password);
+                    HttpContext.Session.SetInt32("Status", (int)auth.Status);
+
+                    if (auth.RoleId == 1)
+                    {
+                        return RedirectToAction("Index", "Products");
+                    }
+
+                    return RedirectToAction("Index", "Home");
+                }
+                return RedirectToAction("Index", "Home");
+            }
+            ModelState.AddModelError(string.Empty, "Invalid username or password");
+            return View();
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Users/Edit/5
