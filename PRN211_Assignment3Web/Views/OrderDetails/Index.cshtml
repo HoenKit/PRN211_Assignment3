@@ -5,7 +5,7 @@
     Layout = "_AdminLayout";
 }
 
-<h1>Index</h1>
+<h1>Manage Order</h1>
 
 <p>
     @*<a asp-action="Create">Create New</a>*@
@@ -21,6 +21,15 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Order)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order.OrderDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order.User.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order.Status)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Product)
@@ -40,12 +49,21 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Order.OrderId)
             </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Order.OrderDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Order.User.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Order.Status)
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Product.ProductName)
             </td>
             <td>
                 @*<a asp-action="Edit" asp-route-id="@item.OrderDetailId">Edit</a> |*@
-                <a asp-action="Details" asp-route-id="@item.OrderDetailId">Details</a> |
+                    @*<a asp-action="Details" asp-route-id="@item.OrderDetailId">Details</a> |*@
                 <a asp-action="Delete" asp-route-id="@item.OrderDetailId">Delete</a>
             </td>
         </tr>

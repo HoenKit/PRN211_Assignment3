@@ -2,13 +2,11 @@
 
 @{
     ViewData["Title"] = "Details";
-    Layout = "_AdminLayout";
 }
 
 <h1>Details</h1>
 
 <div>
-    <h4>OrderDetail</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -24,7 +22,7 @@
             @Html.DisplayFor(model => model.UnitPrice)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Order)
+            @Html.DisplayNameFor(model => model.Order.OrderId)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Order.OrderId)
@@ -33,11 +31,11 @@
             @Html.DisplayNameFor(model => model.Product)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Product.ProductId)
+            @Html.DisplayFor(model => model.Product.ProductName)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.OrderDetailId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    @*<a asp-action="Edit" asp-route-id="@Model?.OrderDetailId">Edit</a> |*@
+    <a asp-controller="Home" asp-action="Index">Back to Home</a>
 </div>

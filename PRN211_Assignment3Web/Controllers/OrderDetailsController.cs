@@ -21,7 +21,11 @@ namespace PRN211_Assignment3Web.Controllers
         // GET: OrderDetails
         public async Task<IActionResult> Index()
         {
-            var prn211Assignment3Context = _context.OrderDetails.Include(o => o.Order).Include(o => o.Product);
+            var prn211Assignment3Context = _context.OrderDetails
+    .Include(o => o.Order)
+    .Include(o => o.Product)
+    .Include(o => o.Order.User);
+
             return View(await prn211Assignment3Context.ToListAsync());
         }
 

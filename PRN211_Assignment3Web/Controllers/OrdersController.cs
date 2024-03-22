@@ -45,27 +45,38 @@ namespace PRN211_Assignment3Web.Controllers
         }
 
         // GET: Orders/Create
-        public IActionResult Create()
-        {
-            ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId");
-            return View();
-        }
-
-        // POST: Orders/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("OrderId,OrderDate,UserId,Status")] Order order)
+        public async Task<IActionResult> Create([Bind("OrderId")] Order order, int unitStock, int productId, decimal unitPrice)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(order);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                // Lấy UserId từ session
+                int? userId = HttpContext.Session.GetInt32("UserId");
+                if (userId.HasValue)
+                {
+                    order.UserId = userId.Value;
+                    order.OrderDate = DateTime.Now;
+                    order.Status = 0;
+                    decimal totalPrice = unitStock * unitPrice;
+
+                    _context.Add(order);
+                    await _context.SaveChangesAsync();
+                    int orderId = order.OrderId;
+                    OrderDetail orderDetail = new OrderDetail();
+                    orderDetail.OrderId = orderId;
+                    orderDetail.ProductId = productId;
+                    orderDetail.UnitPrice = totalPrice;
+                    orderDetail.UnitStock = unitStock;
+                    _context.Add(orderDetail);
+                    await _context.SaveChangesAsync();
+                    int orderDetailId = orderDetail.OrderDetailId;
+                    return RedirectToAction("Details", "OrderDetails", new { id = orderDetailId });
+                }
+                else
+                {
+                    return RedirectToAction("Login", "Users");
+                }
             }
-            ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId", order.UserId);
-            return View(order);
+            return RedirectToAction("Details", "Home");
         }
 
         // GET: Orders/Edit/5
