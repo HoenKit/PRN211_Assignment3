@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj": {}
+    "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj": {}
   },
   "projects": {
-    "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj": {
+    "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj",
         "projectName": "PRN211_Assignment3Library",
-        "projectPath": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Library\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

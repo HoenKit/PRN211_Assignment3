@@ -11589,11 +11589,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\PRN211_Assignment3Web.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\PRN211_Assignment3Web.csproj",
       "projectName": "PRN211_Assignment3Web",
-      "projectPath": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\PRN211_Assignment3Web.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\PRN211_Assignment3Web.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11610,8 +11610,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj": {
-              "projectPath": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj"
+            "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj"
             }
           }
         }

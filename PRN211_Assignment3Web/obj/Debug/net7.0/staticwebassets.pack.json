@@ -1,495 +1,495 @@
 {
   "Files": [
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PRN211_Assignment3Web.bundle.scp.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PRN211_Assignment3Web.bundle.scp.css",
       "PackagePath": "staticwebassets\\PRN211_Assignment3Web.bundle.scp.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\css\\ajax-loader.gif",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\css\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\css\\ajax-loader.gif"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\css\\vendor.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\css\\vendor.css",
       "PackagePath": "staticwebassets\\css\\vendor.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\banner-image.png",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\banner-image.png",
       "PackagePath": "staticwebassets\\images\\banner-image.png"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\cart-item1.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\cart-item1.jpg",
       "PackagePath": "staticwebassets\\images\\cart-item1.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\cart-item2.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\cart-item2.jpg",
       "PackagePath": "staticwebassets\\images\\cart-item2.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\commentor-item1.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\commentor-item1.jpg",
       "PackagePath": "staticwebassets\\images\\commentor-item1.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\commentor-item2.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\commentor-item2.jpg",
       "PackagePath": "staticwebassets\\images\\commentor-item2.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\commentor-item3.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\commentor-item3.jpg",
       "PackagePath": "staticwebassets\\images\\commentor-item3.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\dhl.png",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\dhl.png",
       "PackagePath": "staticwebassets\\images\\dhl.png"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\insta-item1.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\insta-item1.jpg",
       "PackagePath": "staticwebassets\\images\\insta-item1.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\insta-item2.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\insta-item2.jpg",
       "PackagePath": "staticwebassets\\images\\insta-item2.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\insta-item3.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\insta-item3.jpg",
       "PackagePath": "staticwebassets\\images\\insta-item3.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\insta-item4.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\insta-item4.jpg",
       "PackagePath": "staticwebassets\\images\\insta-item4.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\insta-item5.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\insta-item5.jpg",
       "PackagePath": "staticwebassets\\images\\insta-item5.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\main-logo.png",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\main-logo.png",
       "PackagePath": "staticwebassets\\images\\main-logo.png"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\mastercard.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\mastercard.jpg",
       "PackagePath": "staticwebassets\\images\\mastercard.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\paypal.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\paypal.jpg",
       "PackagePath": "staticwebassets\\images\\paypal.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-image.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-image.jpg",
       "PackagePath": "staticwebassets\\images\\post-image.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-image1.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-image1.jpg",
       "PackagePath": "staticwebassets\\images\\post-image1.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item1.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item1.jpg",
       "PackagePath": "staticwebassets\\images\\post-item1.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item2.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item2.jpg",
       "PackagePath": "staticwebassets\\images\\post-item2.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item3.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item3.jpg",
       "PackagePath": "staticwebassets\\images\\post-item3.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item4.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item4.jpg",
       "PackagePath": "staticwebassets\\images\\post-item4.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item5.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item5.jpg",
       "PackagePath": "staticwebassets\\images\\post-item5.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item6.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item6.jpg",
       "PackagePath": "staticwebassets\\images\\post-item6.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item7.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item7.jpg",
       "PackagePath": "staticwebassets\\images\\post-item7.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item8.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item8.jpg",
       "PackagePath": "staticwebassets\\images\\post-item8.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item9.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-item9.jpg",
       "PackagePath": "staticwebassets\\images\\post-item9.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-small-image1.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-small-image1.jpg",
       "PackagePath": "staticwebassets\\images\\post-small-image1.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-small-image2.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-small-image2.jpg",
       "PackagePath": "staticwebassets\\images\\post-small-image2.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-small-image3.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\post-small-image3.jpg",
       "PackagePath": "staticwebassets\\images\\post-small-image3.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item1.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item1.jpg",
       "PackagePath": "staticwebassets\\images\\product-item1.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item10.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item10.jpg",
       "PackagePath": "staticwebassets\\images\\product-item10.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item2.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item2.jpg",
       "PackagePath": "staticwebassets\\images\\product-item2.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item3.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item3.jpg",
       "PackagePath": "staticwebassets\\images\\product-item3.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item4.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item4.jpg",
       "PackagePath": "staticwebassets\\images\\product-item4.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item5.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item5.jpg",
       "PackagePath": "staticwebassets\\images\\product-item5.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item6.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item6.jpg",
       "PackagePath": "staticwebassets\\images\\product-item6.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item7.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item7.jpg",
       "PackagePath": "staticwebassets\\images\\product-item7.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item8.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item8.jpg",
       "PackagePath": "staticwebassets\\images\\product-item8.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item9.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\product-item9.jpg",
       "PackagePath": "staticwebassets\\images\\product-item9.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\review-item1.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\review-item1.jpg",
       "PackagePath": "staticwebassets\\images\\review-item1.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\review-item2.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\review-item2.jpg",
       "PackagePath": "staticwebassets\\images\\review-item2.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\search-icon.png",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\search-icon.png",
       "PackagePath": "staticwebassets\\images\\search-icon.png"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\shippingcard.png",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\shippingcard.png",
       "PackagePath": "staticwebassets\\images\\shippingcard.png"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\singel-product-item.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\singel-product-item.jpg",
       "PackagePath": "staticwebassets\\images\\singel-product-item.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\single-image1.png",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\single-image1.png",
       "PackagePath": "staticwebassets\\images\\single-image1.png"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\single-image2.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\single-image2.jpg",
       "PackagePath": "staticwebassets\\images\\single-image2.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\single-image3.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\single-image3.jpg",
       "PackagePath": "staticwebassets\\images\\single-image3.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\single-post.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\single-post.jpg",
       "PackagePath": "staticwebassets\\images\\single-post.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\visa.jpg",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\images\\visa.jpg",
       "PackagePath": "staticwebassets\\images\\visa.jpg"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\js\\ajax-loader.gif",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\js\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\js\\ajax-loader.gif"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\js\\jquery-1.11.0.min.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\js\\jquery-1.11.0.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-1.11.0.min.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\js\\modernizr.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\js\\modernizr.js",
       "PackagePath": "staticwebassets\\js\\modernizr.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\js\\plugins.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\js\\plugins.js",
       "PackagePath": "staticwebassets\\js\\plugins.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\js\\script.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
