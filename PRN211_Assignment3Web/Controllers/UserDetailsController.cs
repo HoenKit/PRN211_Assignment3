@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PRN211_Assignment3Library.Models;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace PRN211_Assignment3Web.Controllers
 {
@@ -168,6 +169,82 @@ namespace PRN211_Assignment3Web.Controllers
         private bool UserDetailExists(int id)
         {
           return (_context.UserDetails?.Any(e => e.UserDetailId == id)).GetValueOrDefault();
+        }
+
+        //View user profile
+        public async Task<IActionResult> Profile()
+        {
+            int? userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null)
+            {
+                return RedirectToAction("Login", "Users");
+            }
+
+            var userDetail = await _context.UserDetails
+            .Include(u => u.User)
+            .ThenInclude(u => u.Role)
+            .FirstOrDefaultAsync(u => u.UserId == userId);
+
+            if (userDetail == null)
+            {
+                return NotFound();
+            }
+
+            return View(userDetail);
+        }
+        // GET: UserDetails/EditProfile
+        public async Task<IActionResult> EditProfile()
+        {
+            int? userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null)
+            {
+                return RedirectToAction("Login", "Users");
+            }
+
+            var userDetail = await _context.UserDetails
+                .Include(u => u.User)
+                .ThenInclude(u => u.Role)
+                .FirstOrDefaultAsync(u => u.UserId == userId);
+
+            if (userDetail == null)
+            {
+                return NotFound();
+            }
+
+            return View(userDetail);
+        }
+        // POST: UserDetails/EditProfile
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditProfile([Bind("UserDetailId,UserId,Name,DateBirth,Address,Email,Phone")] UserDetail userDetail)
+        {
+            int? userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null || userId != userDetail.UserId)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(userDetail);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!UserDetailExists(userDetail.UserDetailId))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Profile));
+            }
+            return View(userDetail);
         }
     }
 }

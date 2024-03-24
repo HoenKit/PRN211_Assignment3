@@ -213,5 +213,58 @@ namespace PRN211_Assignment3Web.Controllers
         {
           return (_context.Users?.Any(e => e.UserId == id)).GetValueOrDefault();
         }
+
+        //ChangePassword
+        public IActionResult ChangePassword(int? id)
+        {
+            int? userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null)
+            {
+                return RedirectToAction("Login", "Users"); // Chuyển hướng đến trang đăng nhập nếu không có người dùng đăng nhập
+            }
+            return View();
+        }
+
+        [HttpPost, ActionName("ChangePassword")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ChangePassword(int? id, string oldPassword, string newPassword, string confirmPassword)
+        {
+            int? userId = HttpContext.Session.GetInt32("UserId");
+            id = userId;
+            if (id != userId)
+            {
+                return NotFound();
+            }
+
+            var user = await _context.Users.FindAsync(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                if (user.Password != oldPassword)
+                {
+                    ModelState.AddModelError(string.Empty, "Current password is incorrect.");
+                    return View();
+                }
+
+                if (newPassword != confirmPassword)
+                {
+                    ModelState.AddModelError(string.Empty, "New password and confirm password do not match.");
+                    return View();
+                }
+
+                user.Password = newPassword;
+                _context.Update(user);
+                await _context.SaveChangesAsync();
+
+                TempData["SuccessMessage"] = "Password changed successfully!";
+                return RedirectToAction("ChangePassword");
+            }
+
+            return View();
+        }
     }
 }

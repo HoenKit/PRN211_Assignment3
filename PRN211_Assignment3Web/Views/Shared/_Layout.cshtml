@@ -49,13 +49,20 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Login">Login</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Logout">Logout</a>
-                        </li>
+                       
                         <li class="nav-item">
                             @if (ViewBag.UserName != null)
                             {
                                 <a class="nav-link text-dark">Hello @ViewBag.UserName</a>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Logout">Logout</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="ChangePassword">Change Password</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="UserDetails" asp-action="Profile">Profile</a>
+                                </li>                            
                             }
                             else
                             {

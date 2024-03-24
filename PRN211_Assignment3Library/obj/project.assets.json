@@ -3209,11 +3209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj",
+      "projectUniqueName": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj",
       "projectName": "PRN211_Assignment3Library",
-      "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj",
+      "projectPath": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Library\\PRN211_Assignment3Library.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\source\\repos\\PRN211_Assignment3\\PRN211_Assignment3Library\\obj\\",
+      "outputPath": "F:\\Code\\PRN211_Assignment3\\PRN211_Assignment3Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
