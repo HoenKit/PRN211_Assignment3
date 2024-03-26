@@ -4,38 +4,75 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Sign Up</h1>
+    <h1 class="text-center">Sign Up</h1>
 
 <hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="col-md-4 mx-auto">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <input type="hidden" asp-for="RoleId" class="form-control" value="2" />
-            <div class="form-group">
-                <label asp-for="UserName" class="control-label"></label>
-                <input asp-for="UserName" class="form-control" />
-                <span asp-validation-for="UserName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-                <input type="hidden" asp-for="Status" class="form-control" value="0"/>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label for="Name" class="control-label">Name</label>
+                    <input id="Name" name="Name" class="form-control" required />
+                    <span validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="DateBirth" class="control-label">Date of Birth</label>
+                    <input type="date" id="DateBirth" name="DateBirth" class="form-control" required />
+                    <span validation-for="DateBirth" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="Address" class="control-label">Address</label>
+                    <input id="Address" name="Address" class="form-control" required />
+                    <span validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="Email" class="control-label">Email</label>
+                    <input id="Email" name="Email" class="form-control" required />
+                    <span validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="Phone" class="control-label">Phone</label>
+                    <input id="Phone" name="Phone" class="form-control" required />
+                    <span validation-for="Phone" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="UserName" class="control-label"></label>
+                    <input asp-for="UserName" class="form-control" required />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" required />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <input type="hidden" asp-for="Status" class="form-control" value="0" />
                 <span asp-validation-for="Status" class="text-danger"></span>
                 <br />
-            <div class="form-group">
-                <input type="submit" value="Sign Up" class="btn btn-primary" />
-            </div>
-        </form>
+            <br />
+            <div class="form-group text-center">
+                    <input type="submit" value="Sign Up" class="btn btn-primary" />
+                </div>
+            </form>
     </div>
 </div>
-
-<div>
-    <a asp-controller="Home" asp-action="Index">Back to Home</a>
+<br />
+<br />
+<div class="text-center">
+    <a class="btn btn-secondary" asp-controller="Home" asp-action="Index">Back to Home</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

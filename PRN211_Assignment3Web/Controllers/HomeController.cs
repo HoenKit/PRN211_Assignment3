@@ -7,7 +7,7 @@ using System.Text;
 
 namespace PRN211_Assignment3Web.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
         private readonly Prn211Assignment3Context _context;
@@ -18,19 +18,14 @@ namespace PRN211_Assignment3Web.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? name)
         {
-            if (HttpContext.Session.TryGetValue("UserName", out byte[] userNameBytes))
-            {
-                var userName = Encoding.UTF8.GetString(userNameBytes);
-                ViewBag.UserName = userName;
-            }
-            else
-            {
-                ViewBag.UserName = null;
-            }
-
             var products = await _context.Products.Include(p => p.Category).Include(p => p.User).ToListAsync();
+            if (name != null)
+            {
+                return View(products.Where(p => p.ProductName
+                    .Contains(name, StringComparison.OrdinalIgnoreCase)));
+            }
             return View(products);
         }
 

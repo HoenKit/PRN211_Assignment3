@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,7 +11,7 @@ using PRN211_Assignment3Library.Models;
 
 namespace PRN211_Assignment3Web.Controllers
 {
-    public class UsersController : Controller
+    public class UsersController : BaseController
     {
         private readonly Prn211Assignment3Context _context;
 
@@ -57,7 +58,7 @@ namespace PRN211_Assignment3Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("UserId,RoleId,UserName,Password,Status")] User user)
+        public async Task<IActionResult> Create([Bind("UserId,RoleId,UserName,Password,Status")] User user, string Name, DateTime DateBirth, string Address, string Email, string Phone)
         {
             if (ModelState.IsValid)
             {
@@ -67,10 +68,24 @@ namespace PRN211_Assignment3Web.Controllers
                     ModelState.AddModelError(string.Empty, "User with this UserName already exists.");
                     return View(user);
                 }
+
                 _context.Add(user);
                 await _context.SaveChangesAsync();
 
-                return RedirectToAction("Create", "UserDetails", new { userId = user.UserId });
+                int userId = user.UserId;
+
+                UserDetail userDetail = new UserDetail();
+                userDetail.UserId = userId;
+                userDetail.Name = Name;
+                userDetail.DateBirth = DateBirth;
+                userDetail.Address = Address;
+                userDetail.Email = Email;
+                userDetail.Phone = Phone;
+
+                _context.Add(userDetail);
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction("Login", "Users");
             }
 
             return View(user);
@@ -95,9 +110,6 @@ namespace PRN211_Assignment3Web.Controllers
                 {
                     HttpContext.Session.SetInt32("UserId", auth.UserId);
                     HttpContext.Session.SetString("UserName", auth.UserName);
-                    HttpContext.Session.SetInt32("RoleId", (int)auth.RoleId);
-                    HttpContext.Session.SetString("Password", auth.Password);
-                    HttpContext.Session.SetInt32("Status", (int)auth.Status);
 
                     if (auth.RoleId == 1)
                     {
@@ -106,6 +118,7 @@ namespace PRN211_Assignment3Web.Controllers
 
                     return RedirectToAction("Index", "Home");
                 }
+                ModelState.AddModelError(string.Empty, "Invalid username or password");
                 return RedirectToAction("Index", "Home");
             }
             ModelState.AddModelError(string.Empty, "Invalid username or password");

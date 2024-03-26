@@ -2,12 +2,14 @@
 
 @{
     ViewData["Title"] = "Details";
+    Layout = "_Layout";
 }
 
 <h1>Details</h1>
 
 <div>
     <hr />
+    <div class="container">
     <dl class="row">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.UnitStock)
@@ -34,8 +36,9 @@
             @Html.DisplayFor(model => model.Product.ProductName)
         </dd>
     </dl>
+    </div>
 </div>
 <div>
     @*<a asp-action="Edit" asp-route-id="@Model?.OrderDetailId">Edit</a> |*@
-    <a asp-controller="Home" asp-action="Index">Back to Home</a>
+    <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Back to Home</a>
 </div>

@@ -10,7 +10,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace PRN211_Assignment3Web.Controllers
 {
-    public class UserDetailsController : Controller
+    public class UserDetailsController : BaseController
     {
         private readonly Prn211Assignment3Context _context;
 

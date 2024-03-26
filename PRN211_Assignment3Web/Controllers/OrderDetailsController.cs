@@ -9,7 +9,7 @@ using PRN211_Assignment3Library.Models;
 
 namespace PRN211_Assignment3Web.Controllers
 {
-    public class OrderDetailsController : Controller
+    public class OrderDetailsController : BaseController
     {
         private readonly Prn211Assignment3Context _context;
 
