@@ -1,0 +1,52 @@
+﻿@model IEnumerable<PRN211_Assignment3Library.Models.Product>
+
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+<h1>Search Results</h1>
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <form asp-controller="Products" asp-action="Search" method="get" class="mb-3">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search by product name or unit price" name="searchQuery" aria-label="Search" aria-describedby="basic-addon2">
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (Model.Any())
+{
+    <div class="container">
+        <div class="card-header my-3">Products</div>
+        <div class="row">
+            @foreach (var product in Model)
+            {
+                <div class="col-md-3">
+                    <div class="card w-100" style="width: 18rem;">
+                        <div class="card-body">
+                            <img src="~/images/@product.Images" class="card-img-top" alt="Product Image">
+                            <h5 class="ProductName">Name: @product.ProductName</h5>
+                            <h6 class="UnitPrice">Price: @product.UnitPrice $</h6>
+                            <div class="d-flex justify-content-between">
+                                <div class="mb-2">
+                                    <a class="btn btn-primary" asp-controller="Home" asp-action="Details" asp-route-id="@product.ProductId">View Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+else
+{
+    <p style="color:red ">No products found!</p>
+}
+<br>
+<div>
+    <a asp-controller="Home" asp-action="Index" style="color: #000; border: 1px solid #000;" class="btn btn-outline-light">Back to Home</a>
+</div>

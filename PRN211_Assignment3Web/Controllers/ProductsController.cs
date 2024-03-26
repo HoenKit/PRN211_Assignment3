@@ -174,5 +174,33 @@ namespace PRN211_Assignment3Web.Controllers
         {
           return (_context.Products?.Any(e => e.ProductId == id)).GetValueOrDefault();
         }
+        // GET: Products/Search
+        public async Task<IActionResult> Search(string searchQuery)
+        {
+            if (string.IsNullOrEmpty(searchQuery))
+            {
+                // Trả về tất cả sản phẩm nếu không có từ khóa tìm kiếm
+                var allProducts = await _context.Products.ToListAsync();
+                return View(allProducts);
+            }
+
+            // Kiểm tra xem searchQuery có phải là một giá trị số hay không
+            if (decimal.TryParse(searchQuery, out decimal searchPrice))
+            {
+                // Nếu là một giá trị số, tìm kiếm theo giá
+                var productsByPrice = from p in _context.Products
+                                      where p.UnitPrice == searchPrice
+                                      select p;
+                return View(await productsByPrice.ToListAsync());
+            }
+            else
+            {
+                // Nếu không phải là một giá trị số, tìm kiếm theo tên sản phẩm
+                var productsByName = from p in _context.Products
+                                     where p.ProductName.Contains(searchQuery)
+                                     select p;
+                return View(await productsByName.ToListAsync());
+            }
+        }
     }
 }
