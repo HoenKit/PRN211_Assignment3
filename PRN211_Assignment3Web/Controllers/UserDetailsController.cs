@@ -20,10 +20,15 @@ namespace PRN211_Assignment3Web.Controllers
         }
 
         // GET: UserDetails
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? name)
         {
-            var prn211Assignment3Context = _context.UserDetails.Include(u => u.User);
-            return View(await prn211Assignment3Context.ToListAsync());
+            var prn211Assignment3Context = await _context.UserDetails.Include(u => u.User).ToListAsync();
+            if (name != null)
+            {
+                return View(prn211Assignment3Context.Where(p => p.Name
+                    .Contains(name, StringComparison.OrdinalIgnoreCase)));
+            }
+            return View(prn211Assignment3Context);
         }
 
         // GET: UserDetails/Details/5

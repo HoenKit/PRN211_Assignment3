@@ -19,10 +19,15 @@ namespace PRN211_Assignment3Web.Controllers
         }
 
         // GET: Products
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? name)
         {
-            var prn211Assignment3Context = _context.Products.Include(p => p.Category).Include(p => p.User);
-            return View(await prn211Assignment3Context.ToListAsync());
+            var products = await _context.Products.Include(p => p.Category).Include(p => p.User).ToListAsync();
+            if (name != null)
+            {
+                return View(products.Where(p => p.ProductName
+                    .Contains(name, StringComparison.OrdinalIgnoreCase)));
+            }
+            return View(products);
         }
 
         // GET: Products/Details/5
